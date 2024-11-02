@@ -1,0 +1,32 @@
+:root{
+  --body:#4a69bd;
+  --goldcolor:#e58e26;
+  --darkcolor:#2f3640;
+  --whaitcolor:#ddd;
+}
+body{
+  background: var(--body);
+}
+h1{
+  background: var(--goldcolor);
+  text-align:center;
+  font-size: 35px;
+  padding: 20px;
+  margin: 20px;
+}
+div{
+  background:var(--darkcolor);
+  color: var(--whaitcolor);
+  padding: 20px;
+  margin: 20px;
+}
+a{
+  color: var(--whaitcolor);
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  background:var(--goldcolor) ;
+}
+a:hover{
+  background: var(--body);
+}

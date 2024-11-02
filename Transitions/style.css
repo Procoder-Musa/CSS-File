@@ -1,0 +1,14 @@
+
+.one{
+  width: 200px;
+  height: 200px;
+  background: green;
+  border: 1px solid red;
+  transition:width 3s,height 3s,border 3s;
+  transition-timing-function: ease-in;
+}
+.one:hover{
+  border: 10px solid yellow;
+  width: 400px;
+  height: 500px;
+}

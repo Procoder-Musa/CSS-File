@@ -1,0 +1,25 @@
+#id{
+  text-align: center;
+}
+table, th,td{
+  border: 1px solid #eb4d4b ;
+  border-collapse: collapse;
+  margin:auto;
+}
+th{
+background:#eb4d4b ;
+color: #fff;
+padding: 10px 7px;
+}
+td{
+  padding: 5px 5px;
+  text-align: center;
+  background: #44bd32;
+}
+table{
+  width: 100%;
+}
+td:hover{
+  background: #8c7ae6;
+  color: #fff;
+}

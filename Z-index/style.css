@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.area{
+  background: url(pp.jpg);
+  background-size: cover;
+  text-align: center;
+  padding: 100px 100px;
+}
+.area h2{
+color: #fff;
+font-size: 35px;
+margin: 0;
+}
+.area p{
+color: #fff;
+font-size: 15px;
+margin-bottom: 30px;
+}
+.b{
+background: red;
+padding: 10px 30px;
+font-size: 18px;
+font-family: sans-serif;
+text-decoration: none;
+border-radius: 10px;
+display: inline-block;
+color: black;
+}
+.b:hover{
+background: rgb(8, 68, 231);
+color: aliceblue;
+}
+.bbt{
+  width: 100%;
+  height: 500px;
+  background: red;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
