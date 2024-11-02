@@ -1,0 +1,54 @@
+body{
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.main{
+  width: 450px;
+  border: 1px solid #ddd;
+  margin: 20px auto;
+  padding: 5%;
+  text-align: center;
+}
+.main h2{
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 0;
+}
+.main p{
+ color: #9b9594;
+}
+.main form{
+  margin-top: 25px;
+}
+.chlid{
+  width: 100%;
+  margin-bottom: 15px;
+  text-align: left;
+}
+.chlid label{
+  display: block;
+  margin-bottom:5px;
+}
+.chlid input,  .chlid textarea,.chlid select{
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px 3%;
+  width: 94%;
+  font-family: 'Poppins', sans-serif;
+}
+.chlid select{
+  width: 100%;
+}
+.chlid input[type='button']{
+width: 200px;
+background: blueviolet;
+color: #fff;
+cursor: pointer;
+}
+.chlid input[type='button']:hover{
+background: black;
+}
+.chlid:last-child{
+  margin-bottom: 0px;
+}
+

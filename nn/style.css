@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+}
+#main ul{
+background:blueviolet;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+#main ul li{
+  list-style: none;
+  display: inline-block;
+  position: relative;
+}
+#main ul li a{
+ text-decoration: none;
+ padding: 12px 15px;
+ display: block;
+ color: #fff;
+}
+#main ul li a:hover{
+background: blue;
+}
+/* Dropdown Manu work star */
+#main ul ul{
+position: absolute;
+background: green;
+width: 200px;
+top:41px;
+left: -53px;
+display: none;
+}
+#main ul ul li a:hover{
+background: black;
+}
+#main ul ul li{
+display: block;
+}
+#main ul li:hover ul{
+display: block;
+}

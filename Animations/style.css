@@ -1,0 +1,64 @@
+
+.one{
+  width: 200px;
+  height: 200px;
+  background: rgb(0, 119, 255);
+  animation-name: larning;
+  animation-duration: 4s;
+  animation-iteration-count:infinite ;
+}
+
+ @keyframes larning{
+  0%{
+    width: 200px;
+  }
+  25%{
+    width: 300px;
+    background: red;
+  }
+  100%{
+    width: 450px;
+    background: aqua;
+  }
+ }
+
+ .parnt{
+  width: 400px;
+  height: 400px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  position: relative;
+
+ }
+.two{
+  width: 100px;
+  height: 100px;
+  background: darkgoldenrod;
+  border-radius: 50%;
+  position: absolute;
+  animation-name: rounds1;
+  animation-duration: 4s;
+  animation-iteration-count:infinite ;
+ }
+ @keyframes rounds1{
+  0%{
+    top: 0;
+    left: 0;
+  }
+  20%{
+    left: 300px;
+    top: 0;
+  }
+  40%{
+    left: 300px;
+    top: 300px;
+ }
+ 75%{
+     left: 0;
+     top: 300px;
+ }
+ 100%{
+  top: 0;
+  left: 0;
+ }
+ }

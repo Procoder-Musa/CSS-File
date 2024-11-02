@@ -1,0 +1,11 @@
+div{
+  background: #0c2461;
+  color: aliceblue;
+  padding: 20px 5%;
+  overflow: auto;
+  width: 90%;
+  height: 300px;
+}
+p{
+margin: 0;
+}

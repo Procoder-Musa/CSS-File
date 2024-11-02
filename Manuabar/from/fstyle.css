@@ -1,0 +1,16 @@
+label{
+  display: block;
+
+}
+
+#main{
+  width: 50%;
+  height: 500px;
+  background: green;
+  margin: auto;
+}
+#main form input{
+border: 1px solid red;
+width: 90%;
+height: 25px;
+}

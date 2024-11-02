@@ -1,0 +1,17 @@
+.one{
+  width: 200px;
+  height: 200px;
+  background: green;
+  margin: 20px;
+  transition: .5s;
+}
+.one:hover{
+  border-radius: 100%;
+     */
+}
+.two{
+  width: 200px;
+  height: 200px;
+  background: rebeccapurple;
+  margin: 20px;
+}

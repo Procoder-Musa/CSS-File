@@ -1,0 +1,44 @@
+div{
+  width: 200px;
+  height: 200px;
+  background: red;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20x;
+}
+.zero{
+  background:blue;
+  border: 10px solid #6EC207 ;
+}
+.one{
+  background: green;
+  border:10px solid #FFEB00;
+}
+.two{
+  background: aqua;
+  border:10px solid #181C14;
+}
+.three{
+  background: #87A2FF;
+  border:10px solid #D2E0FB;
+}
+.four{
+  background: #640D5F;
+  border: 10px solid #161D6F;
+}
+.five{
+  background:rgba(7, 231, 26, 0.733);
+  font-size: 50px;
+  width: 200px;
+  height: 70px;
+  text-align: center;
+  padding-bottom: 10px;
+  color: azure;
+  border: 10px solid wheat;
+  background-size: 10px;
+}

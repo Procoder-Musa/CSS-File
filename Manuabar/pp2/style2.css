@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#main ul{
+  margin: 0;
+  padding: 0;
+  background: green;
+  list-style: none;
+  text-align: center;
+
+}
+#main ul li{
+ display:inline-block;
+ position: relative;
+}
+#main ul li a{
+color: #fff;
+text-decoration: none;
+display: block;
+padding: 12px 15px;
+}
+#main ul li a:hover{
+background: blue;
+}
+#main ul ul{
+position:absolute ;
+width: 200px;
+background: blue;
+}
+#main ul ul{
+position:absolute ;
+width: 200px;
+background:#024CAA;
+top:40px ;
+left: -50px;
+display: none;
+}
+#main ul ul li a:hover{
+background: #091057;
+}
+#main ul ul li {
+display: block;
+}
+#main ul ul li {
+display: block;
+}
+#main ul li:hover ul {
+display: block;
+}

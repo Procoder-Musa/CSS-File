@@ -1,0 +1,32 @@
+table,td,th{
+  border: 1px solid red;
+  border-collapse: collapse;
+  padding: 10px 10px;
+}
+table{
+  width: 100%;
+}
+td{
+  padding: 5px 5px;
+  background: #09cf5c;
+}
+  th{
+    background: red;
+    border: 1px solid green;
+  }
+  td:hover{
+    background:#4834d4
+ ;
+ color:aliceblue;
+ transform: scale(1.2);
+ transition: .10s;
+  }
+  th:hover{
+    background: greenyellow;
+  }
+
+p::selection{
+  background: tomato;
+  color: white;
+}
+

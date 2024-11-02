@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#main_area,ul{
+  margin: 0;
+  list-style: none;
+  background: #1E3E62;
+  text-align: center;
+}
+#main_area ul li{
+  display: inline-block;
+  position: relative;
+}
+#main_area ul li a{
+padding: 12px 15px;
+color: #fff;
+text-decoration: none;
+display: block;
+}
+#main_area ul li :hover{
+background:#0652DD ;
+}
+#main_area ul ul{
+background: #1E3E62;
+position: absolute;
+top: 41px;
+left: -48px;
+width: 200px;
+display: none;
+ }
+#main_area ul ul li{
+display: block;
+background: #1E3E62;
+ }
+ #main_area ul ul a:hover{
+  background:#ED4C67;
+   }
+ #main_area ul li:hover ul{
+ display: block;
+   }

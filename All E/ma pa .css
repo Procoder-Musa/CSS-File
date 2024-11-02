@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+div{
+  background:#347928 ;
+  width: 220px;
+  height: 220px;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+
+  padding-right: 20px;
+}
+
+.calid{
+  background: rgb(28, 221, 10);
+  width: 150px;
+  height: 150px;
+margin-left: 20px;
+padding-top: 10px;
+
+}

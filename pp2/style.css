@@ -1,0 +1,21 @@
+.main{
+  width: 500px;
+  height: 500px;
+  background: red;
+  z-index: 11;
+}
+
+#div1{
+  width: 200px;
+  height: 200px;
+  background:black;
+  position:relative;
+  top: 100px;
+  left: 100px;
+  z-index:;
+}
+/* #div2{
+  width: 200px;
+  height: 200px;
+  background:green;
+} */

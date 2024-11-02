@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#maine_area ul{
+  margin: 0;
+  list-style: none;
+  background: #273c75;
+  text-align: center;
+}
+#maine_area ul li{
+display: inline-block;
+position: relative;
+}
+#maine_area ul li a {
+color: #fff;
+text-decoration: none;
+display: block;
+padding: 12px 15px;
+}
+#maine_area ul li a:hover {
+background:#5f27cd ;
+}
+#maine_area ul ul {
+  position: absolute;
+  background:#273c75 ;
+  left: -52px;
+  top: 42px;
+  width: 200px;
+  display: none;
+}
+#maine_area ul ul li{
+display:block;
+}
+
+#maine_area ul li:hover a{
+  background:#5f27cd ;
+}
+#maine_area ul li:hover li a{
+  background:#273c75;
+}
+#maine_area ul ul li a:hover{
+  background: #ff9f43;
+  }
+  #maine_area ul li:hover ul  {
+    display: block;
+  }
+
+  #hero_area .div{
+          width: 80%;
+          height: 250px;
+          background: url(the.jpg);
+          background-size: cover;
+          margin: 20px auto ;
+  }

@@ -1,0 +1,55 @@
+#main_menu{
+  background: #1B1464;
+} 
+
+body{
+  margin: 0;
+}
+#main_menu ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+#main_menu li {
+display: inline-block;
+}
+#main_menu li {
+display: inline-block;
+position: relative;
+}
+#main_menu li a {
+display: block;
+padding:12px 15px ;
+color: #fff;
+text-decoration: none;
+}
+#main_menu li a:hover {
+background: #0097e6;
+}
+
+/*Dropdown Menu Style Start*/
+#main_menu ul ul{
+position: absolute;
+background: #44bd32;
+left: -56px;
+top: 42px;
+width: 200px;
+display: none;
+}
+#main_menu ul ul li{
+display: block;
+}
+
+#main_menu  ul li:hover a{
+background: #0097e6;
+}
+#main_menu  ul li:hover ul{
+display: block;
+}
+#main_menu  ul li:hover li a{
+background: #44bd32;
+}
+#main_menu ul ul li a:hover{
+  background:#2f3640 ;
+  }

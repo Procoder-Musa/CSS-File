@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #22a6b3;
+}
+#main ul{
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: #130f40;
+}
+#main ul li {
+  display: inline-block;
+}
+#main ul li a {
+  color: #ddd;
+  display: block;
+  padding:12px 15px;
+  text-decoration: none;
+  font-size: 25px;
+}
+#main ul li a:hover {
+ background: #4834d4;
+ transition: 0.3s;
+ border-radius: 5px;
+}

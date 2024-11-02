@@ -1,0 +1,40 @@
+h1{
+  color: red;
+  font-size: 30px;
+}
+p{
+  color:rgb(44, 42, 165);
+  font-size:15px;
+}
+div{
+  width:200px;
+  height:200px;
+  background: greenyellow;
+  margin-bottom: 20px;
+}
+div p{
+  color:black;
+}
+.one{
+  color: red;
+  text-align: center;
+  background: aqua;
+
+}
+.two{
+  background: red;
+}
+.one  p{
+  color:rgb(235, 40, 15);
+}
+.two p{
+  color:blue;
+}
+*{
+  margin: 10px; /*all selcet*/
+}
+.imm{
+  color: red;
+  text-align: center;
+  background: black;
+}

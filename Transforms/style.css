@@ -1,0 +1,13 @@
+.one{
+  width: 200px;
+  height: 200px;
+  background: blueviolet;
+  border: 5px  solid red;
+  transition: 0.5s;;
+}
+.one:hover{
+  /* transform: translate(25px,25px); */
+  /* transform: rotate(180deg); */
+  /* transform: scale(2,4); */
+  transform: skew(25deg,25deg);
+}

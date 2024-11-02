@@ -1,0 +1,17 @@
+div{
+  background:blueviolet;
+  color: aliceblue;
+  padding: 20px 5%;
+  width: 90%;
+  height: 200px;
+  overflow:auto;
+  margin: 10px;
+}
+img{
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  display: block;
+  margin: auto;
+
+}

@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+}
+
+#manu{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: green;
+  text-align: center;
+}
+#manu li {
+ display: inline-block;
+
+}
+#manu li a {
+display: inline-block;
+padding: 12px 15px;
+text-decoration: none;
+color: #fff;
+}
+#manu li a:hover {
+background: rebeccapurple;
+color: aqua;
+}

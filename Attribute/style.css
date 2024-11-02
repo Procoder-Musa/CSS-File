@@ -1,0 +1,9 @@
+a[target]{
+  text-decoration: none;
+}
+a[title=style]{
+  color:red;
+}
+a[title~="pro"]{
+ font-size: 50px;
+}
